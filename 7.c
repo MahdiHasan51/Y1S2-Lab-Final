@@ -1,4 +1,4 @@
-Write a C program to copy one string to another string.
+//Write a C program to copy one string to another string.
 
 #include<stdio.h>
 #include<string.h>
