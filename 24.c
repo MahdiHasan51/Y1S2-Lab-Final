@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int n,i,sum=0;
-    printf("Enter the number of terms: ");
+    printf("Enter the N: ");
     scanf("%d",&n);
     for(i=2;i<=n;i+=2){
         sum=sum+i;
