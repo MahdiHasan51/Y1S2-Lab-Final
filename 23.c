@@ -1,5 +1,5 @@
-// printing and summatation
-// 1+2+3+4+..................upto n’th term.
+// 23.		1^2+2^2+3^2+4^2+........N^2
+
 
 #include<stdio.h>
 int main(){
@@ -7,8 +7,8 @@ int main(){
     printf("Enter the number of terms: ");
     scanf("%d",&n);
     for(i=1;i<=n;i++){
-        sum=sum+i;
-        printf("%d + ",i);
+        sum=sum+i*i;
+        printf("%d^2 + ",i);
     }
     printf("\b\b\b = %d",sum);
     return 0;

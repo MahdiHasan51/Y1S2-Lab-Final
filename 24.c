@@ -1,12 +1,10 @@
-// printing and summatation
-// 1+2+3+4+..................upto n’th term.
-
+// 2+4+6+8+............... upto n’th term
 #include<stdio.h>
 int main(){
     int n,i,sum=0;
     printf("Enter the number of terms: ");
     scanf("%d",&n);
-    for(i=1;i<=n;i++){
+    for(i=2;i<=n;i+=2){
         sum=sum+i;
         printf("%d + ",i);
     }
