@@ -4,7 +4,7 @@
 #include<math.h>
 int main(){
     int n,i,d;
-    printf("Enter a octal number\n");
+    printf("Enter a hexadecimal number\n");
     scanf("%d",&n);
     d=0;
     for(i=0;n!=0;i++)
